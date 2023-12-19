@@ -1,0 +1,84 @@
+{
+  "posts": {
+    "1": {
+      "title": "First Blog Post",
+      "summary": "A brief summary of the first post.",
+      "content": "Full content of the first blog post...",
+      "author": "Author One",
+      "date": "2023-01-01",
+      "tags": ["React", "JavaScript"]
+    },
+    "2": {
+      "title": "Second Blog Post",
+      "summary": "A brief summary of the second post.",
+      "content": "Full content of the second blog post...",
+      "author": "Author Two",
+      "date": "2023-01-02",
+      "tags": ["Web Development", "HTML"]
+    },
+    "3": {
+      "title": "Third Blog Post",
+      "summary": "A brief summary of the third post.",
+      "content": "Full content of the third blog post...",
+      "author": "Author Three",
+      "date": "2023-01-03",
+      "tags": ["CSS", "Styling"]
+    },
+    "4": {
+      "title": "Fourth Blog Post",
+      "summary": "A brief summary of the fourth post.",
+      "content": "Full content of the fourth blog post...",
+      "author": "Author Four",
+      "date": "2023-01-04",
+      "tags": ["Frontend Development", "React"]
+    },
+    "5": {
+      "title": "Fifth Blog Post",
+      "summary": "A brief summary of the fifth post.",
+      "content": "Full content of the fifth blog post...",
+      "author": "Author Five",
+      "date": "2023-01-05",
+      "tags": ["Backend Development", "Node.js"]
+    },
+    "6": {
+      "title": "Sixth Blog Post",
+      "summary": "A brief summary of the sixth post.",
+      "content": "Full content of the sixth blog post...",
+      "author": "Author Six",
+      "date": "2023-01-06",
+      "tags": ["Database", "SQL"]
+    },
+    "7": {
+      "title": "Seventh Blog Post",
+      "summary": "A brief summary of the seventh post.",
+      "content": "Full content of the seventh blog post...",
+      "author": "Author Seven",
+      "date": "2023-01-07",
+      "tags": ["Cloud Computing", "AWS"]
+    },
+    "8": {
+      "title": "Eighth Blog Post",
+      "summary": "A brief summary of the eighth post.",
+      "content": "Full content of the eighth blog post...",
+      "author": "Author Eight",
+      "date": "2023-01-08",
+      "tags": ["Machine Learning", "Python"]
+    },
+    "9": {
+      "title": "Ninth Blog Post",
+      "summary": "A brief summary of the ninth post.",
+      "content": "Full content of the ninth blog post...",
+      "author": "Author Nine",
+      "date": "2023-01-09",
+      "tags": ["Data Science", "Data Analysis"]
+    },
+    "10": {
+      "title": "Tenth Blog Post",
+      "summary": "A brief summary of the tenth post.",
+      "content": "Full content of the tenth blog post...",
+      "author": "Author Ten",
+      "date": "2023-01-10",
+      "tags": ["Cybersecurity", "Network Security"]
+    }
+  }
+}
