@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import blogData from './data/blog.json';
 
 const PostDetails = () => {
@@ -14,7 +14,11 @@ const PostDetails = () => {
         <p>Author: {post.author}</p>
         <p>Date: {post.date}</p>
         <p>Tags: {post.tags.join(', ')}</p>
+        <footer>
+                <Link to="/">Back</Link>
+            </footer>
       </div>
+      
     );
   };
 
