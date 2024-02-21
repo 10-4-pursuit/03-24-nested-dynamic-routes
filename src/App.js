@@ -1,22 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useState } from "react";
+import PostList from "./components/PostList.js";
+import blogData from "./data/blog.json";
+import PostDetails from "./components/PostDetails.js";
 
 function App() {
+  const [posts, setPost] = useState(blogData.posts);
+
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Router>
+        <div>
+          <h1>My Blog Posts</h1>
+          <Routes>
+            <Route path="/" element={<PostList posts={posts} />} />
+            <Route path="/blog/:postId" element={<PostDetails />} />
+          </Routes>
+        </div>
+        </Router>
+      
       </header>
     </div>
   );
